@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360671421650090200C5DA3E /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 360671411650090200C5DA3E /* readme */; };
+		36FAEC76164ED75100AA00C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FAEC75164ED75100AA00C4 /* CoreLocation.framework */; };
+		D760A5F3163B9B0700A83D2F /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D760A5F2163B9B0700A83D2F /* FoodDetailViewController.m */; };
+		D78013DB1647E99100659E31 /* Pic.gif in Resources */ = {isa = PBXBuildFile; fileRef = D78013DA1647E99100659E31 /* Pic.gif */; };
+		D78013E21647ECE300659E31 /* thumb1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D78013DF1647ECE200659E31 /* thumb1.gif */; };
+		D78013E31647ECE300659E31 /* thumb2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D78013E01647ECE300659E31 /* thumb2.gif */; };
+		D78013E41647ECE300659E31 /* thumb3.gif in Resources */ = {isa = PBXBuildFile; fileRef = D78013E11647ECE300659E31 /* thumb3.gif */; };
+		D78013E81647ED1F00659E31 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = D78013E51647ED1F00659E31 /* pic1.png */; };
+		D78013E91647ED1F00659E31 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = D78013E61647ED1F00659E31 /* pic2.png */; };
+		D78013EA1647ED1F00659E31 /* pic3.png in Resources */ = {isa = PBXBuildFile; fileRef = D78013E71647ED1F00659E31 /* pic3.png */; };
+		D7811ECE1648FE49002F7286 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7811ECD1648FE49002F7286 /* MapViewController.m */; };
+		D7811ED11648FF05002F7286 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7811ED01648FF05002F7286 /* MapKit.framework */; };
+		D7811ED4164904B4002F7286 /* VBAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7811ED3164904B4002F7286 /* VBAnnotation.m */; };
+		D781390A1647868F006420CD /* SelectedFood.m in Sources */ = {isa = PBXBuildFile; fileRef = D78139091647868F006420CD /* SelectedFood.m */; };
+		D7813EE9163D675D00E7A34A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7813EE8163D675D00E7A34A /* RootViewController.m */; };
+		D785F485163B8C4A00C90CB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D785F484163B8C4A00C90CB4 /* UIKit.framework */; };
+		D785F487163B8C4A00C90CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D785F486163B8C4A00C90CB4 /* Foundation.framework */; };
+		D785F489163B8C4A00C90CB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D785F488163B8C4A00C90CB4 /* CoreGraphics.framework */; };
+		D785F48F163B8C4A00C90CB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D785F48D163B8C4A00C90CB4 /* InfoPlist.strings */; };
+		D785F491163B8C4A00C90CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D785F490163B8C4A00C90CB4 /* main.m */; };
+		D785F495163B8C4A00C90CB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D785F494163B8C4A00C90CB4 /* AppDelegate.m */; };
+		D785F498163B8C4A00C90CB4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D785F496163B8C4A00C90CB4 /* MainStoryboard.storyboard */; };
+		D7861CBF164E7F4300154509 /* MainPageImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D7861CBE164E7F4300154509 /* MainPageImage.png */; };
+		D7861CC2164E7F4B00154509 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D7861CC1164E7F4B00154509 /* StartButton.png */; };
+		D7861CCF164E877300154509 /* MainPageImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7861CCE164E877300154509 /* MainPageImage2.png */; };
+		D793A38D164BCC66001FA394 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793A38C164BCC66001FA394 /* MainViewController.m */; };
+		D7E72E1A164631BF0053E6A8 /* POIDb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D7E72E19164631BF0053E6A8 /* POIDb.sqlite */; };
+		D7E72E221646324D0053E6A8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E72E211646324D0053E6A8 /* libsqlite3.0.dylib */; };
+		D7E72E39164636130053E6A8 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E72E38164636130053E6A8 /* Food.m */; };
+		D7E72E511646953E0053E6A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E72E501646953E0053E6A8 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		360671411650090200C5DA3E /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		36FAEC75164ED75100AA00C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D760A5F1163B9B0700A83D2F /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		D760A5F2163B9B0700A83D2F /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		D78013DA1647E99100659E31 /* Pic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pic.gif; sourceTree = "<group>"; };
+		D78013DF1647ECE200659E31 /* thumb1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumb1.gif; sourceTree = "<group>"; };
+		D78013E01647ECE300659E31 /* thumb2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumb2.gif; sourceTree = "<group>"; };
+		D78013E11647ECE300659E31 /* thumb3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumb3.gif; sourceTree = "<group>"; };
+		D78013E51647ED1F00659E31 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		D78013E61647ED1F00659E31 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
+		D78013E71647ED1F00659E31 /* pic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic3.png; sourceTree = "<group>"; };
+		D7811ECC1648FE49002F7286 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D7811ECD1648FE49002F7286 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D7811ED01648FF05002F7286 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D7811ED2164904B4002F7286 /* VBAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAnnotation.h; sourceTree = "<group>"; };
+		D7811ED3164904B4002F7286 /* VBAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAnnotation.m; sourceTree = "<group>"; };
+		D78139081647868F006420CD /* SelectedFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedFood.h; sourceTree = "<group>"; };
+		D78139091647868F006420CD /* SelectedFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedFood.m; sourceTree = "<group>"; };
+		D7813EE7163D675D00E7A34A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D7813EE8163D675D00E7A34A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D785F480163B8C4A00C90CB4 /* Food Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D785F484163B8C4A00C90CB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D785F486163B8C4A00C90CB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D785F488163B8C4A00C90CB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D785F48C163B8C4A00C90CB4 /* Food Searcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food Searcher-Info.plist"; sourceTree = "<group>"; };
+		D785F48E163B8C4A00C90CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D785F490163B8C4A00C90CB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D785F492163B8C4A00C90CB4 /* Food Searcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Food Searcher-Prefix.pch"; sourceTree = "<group>"; };
+		D785F493163B8C4A00C90CB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D785F494163B8C4A00C90CB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D785F497163B8C4A00C90CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D7861CBE164E7F4300154509 /* MainPageImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainPageImage.png; sourceTree = "<group>"; };
+		D7861CC1164E7F4B00154509 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		D7861CCE164E877300154509 /* MainPageImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainPageImage2.png; sourceTree = "<group>"; };
+		D793A38B164BCC66001FA394 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D793A38C164BCC66001FA394 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D7E72E19164631BF0053E6A8 /* POIDb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = POIDb.sqlite; sourceTree = "<group>"; };
+		D7E72E211646324D0053E6A8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D7E72E37164636130053E6A8 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		D7E72E38164636130053E6A8 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		D7E72E501646953E0053E6A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D785F47D163B8C4A00C90CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FAEC76164ED75100AA00C4 /* CoreLocation.framework in Frameworks */,
+				D7811ED11648FF05002F7286 /* MapKit.framework in Frameworks */,
+				D7E72E221646324D0053E6A8 /* libsqlite3.0.dylib in Frameworks */,
+				D785F485163B8C4A00C90CB4 /* UIKit.framework in Frameworks */,
+				D785F487163B8C4A00C90CB4 /* Foundation.framework in Frameworks */,
+				D785F489163B8C4A00C90CB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78013DD1647ECB800659E31 /* thumb */ = {
+			isa = PBXGroup;
+			children = (
+				D78013DF1647ECE200659E31 /* thumb1.gif */,
+				D78013E01647ECE300659E31 /* thumb2.gif */,
+				D78013E11647ECE300659E31 /* thumb3.gif */,
+			);
+			name = thumb;
+			sourceTree = "<group>";
+		};
+		D78013DE1647ECC000659E31 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				D78013E51647ED1F00659E31 /* pic1.png */,
+				D78013E61647ED1F00659E31 /* pic2.png */,
+				D78013E71647ED1F00659E31 /* pic3.png */,
+			);
+			name = pic;
+			sourceTree = "<group>";
+		};
+		D7813EE6163D665D00E7A34A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D793A38B164BCC66001FA394 /* MainViewController.h */,
+				D793A38C164BCC66001FA394 /* MainViewController.m */,
+				D7813EE7163D675D00E7A34A /* RootViewController.h */,
+				D7813EE8163D675D00E7A34A /* RootViewController.m */,
+				D78139081647868F006420CD /* SelectedFood.h */,
+				D78139091647868F006420CD /* SelectedFood.m */,
+				D7E72E37164636130053E6A8 /* Food.h */,
+				D7E72E38164636130053E6A8 /* Food.m */,
+				D760A5F1163B9B0700A83D2F /* FoodDetailViewController.h */,
+				D760A5F2163B9B0700A83D2F /* FoodDetailViewController.m */,
+				D7811ECC1648FE49002F7286 /* MapViewController.h */,
+				D7811ECD1648FE49002F7286 /* MapViewController.m */,
+				D7811ED2164904B4002F7286 /* VBAnnotation.h */,
+				D7811ED3164904B4002F7286 /* VBAnnotation.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D785F475163B8C4A00C90CB4 = {
+			isa = PBXGroup;
+			children = (
+				36FAEC75164ED75100AA00C4 /* CoreLocation.framework */,
+				D7E72E501646953E0053E6A8 /* Default-568h@2x.png */,
+				D785F48A163B8C4A00C90CB4 /* Food Searcher */,
+				D785F483163B8C4A00C90CB4 /* Frameworks */,
+				D785F481163B8C4A00C90CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D785F481163B8C4A00C90CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D785F480163B8C4A00C90CB4 /* Food Searcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D785F483163B8C4A00C90CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E72E211646324D0053E6A8 /* libsqlite3.0.dylib */,
+				D7811ED01648FF05002F7286 /* MapKit.framework */,
+				D785F484163B8C4A00C90CB4 /* UIKit.framework */,
+				D785F486163B8C4A00C90CB4 /* Foundation.framework */,
+				D785F488163B8C4A00C90CB4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D785F48A163B8C4A00C90CB4 /* Food Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				D78013DE1647ECC000659E31 /* pic */,
+				D78013DD1647ECB800659E31 /* thumb */,
+				D7E72E1C164631C70053E6A8 /* Resources */,
+				D7813EE6163D665D00E7A34A /* View Controller */,
+				D785F493163B8C4A00C90CB4 /* AppDelegate.h */,
+				D785F494163B8C4A00C90CB4 /* AppDelegate.m */,
+				D785F496163B8C4A00C90CB4 /* MainStoryboard.storyboard */,
+				D785F48B163B8C4A00C90CB4 /* Supporting Files */,
+				360671411650090200C5DA3E /* readme */,
+			);
+			path = "Food Searcher";
+			sourceTree = "<group>";
+		};
+		D785F48B163B8C4A00C90CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D785F48C163B8C4A00C90CB4 /* Food Searcher-Info.plist */,
+				D785F48D163B8C4A00C90CB4 /* InfoPlist.strings */,
+				D785F490163B8C4A00C90CB4 /* main.m */,
+				D785F492163B8C4A00C90CB4 /* Food Searcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E72E1C164631C70053E6A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7861CCE164E877300154509 /* MainPageImage2.png */,
+				D7861CBE164E7F4300154509 /* MainPageImage.png */,
+				D7861CC1164E7F4B00154509 /* StartButton.png */,
+				D7E72E19164631BF0053E6A8 /* POIDb.sqlite */,
+				D78013DA1647E99100659E31 /* Pic.gif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D785F47F163B8C4A00C90CB4 /* Food Searcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D785F49E163B8C4A00C90CB4 /* Build configuration list for PBXNativeTarget "Food Searcher" */;
+			buildPhases = (
+				D785F47C163B8C4A00C90CB4 /* Sources */,
+				D785F47D163B8C4A00C90CB4 /* Frameworks */,
+				D785F47E163B8C4A00C90CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Searcher";
+			productName = "Food Searcher";
+			productReference = D785F480163B8C4A00C90CB4 /* Food Searcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D785F477163B8C4A00C90CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = CIT;
+			};
+			buildConfigurationList = D785F47A163B8C4A00C90CB4 /* Build configuration list for PBXProject "Food Searcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D785F475163B8C4A00C90CB4;
+			productRefGroup = D785F481163B8C4A00C90CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D785F47F163B8C4A00C90CB4 /* Food Searcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D785F47E163B8C4A00C90CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D785F48F163B8C4A00C90CB4 /* InfoPlist.strings in Resources */,
+				D785F498163B8C4A00C90CB4 /* MainStoryboard.storyboard in Resources */,
+				D7E72E1A164631BF0053E6A8 /* POIDb.sqlite in Resources */,
+				D7E72E511646953E0053E6A8 /* Default-568h@2x.png in Resources */,
+				D78013DB1647E99100659E31 /* Pic.gif in Resources */,
+				D78013E21647ECE300659E31 /* thumb1.gif in Resources */,
+				D78013E31647ECE300659E31 /* thumb2.gif in Resources */,
+				D78013E41647ECE300659E31 /* thumb3.gif in Resources */,
+				D78013E81647ED1F00659E31 /* pic1.png in Resources */,
+				D78013E91647ED1F00659E31 /* pic2.png in Resources */,
+				D78013EA1647ED1F00659E31 /* pic3.png in Resources */,
+				D7861CBF164E7F4300154509 /* MainPageImage.png in Resources */,
+				D7861CC2164E7F4B00154509 /* StartButton.png in Resources */,
+				D7861CCF164E877300154509 /* MainPageImage2.png in Resources */,
+				360671421650090200C5DA3E /* readme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D785F47C163B8C4A00C90CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D785F491163B8C4A00C90CB4 /* main.m in Sources */,
+				D785F495163B8C4A00C90CB4 /* AppDelegate.m in Sources */,
+				D760A5F3163B9B0700A83D2F /* FoodDetailViewController.m in Sources */,
+				D7813EE9163D675D00E7A34A /* RootViewController.m in Sources */,
+				D7E72E39164636130053E6A8 /* Food.m in Sources */,
+				D781390A1647868F006420CD /* SelectedFood.m in Sources */,
+				D7811ECE1648FE49002F7286 /* MapViewController.m in Sources */,
+				D7811ED4164904B4002F7286 /* VBAnnotation.m in Sources */,
+				D793A38D164BCC66001FA394 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D785F48D163B8C4A00C90CB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D785F48E163B8C4A00C90CB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D785F496163B8C4A00C90CB4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D785F497163B8C4A00C90CB4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D785F49C163B8C4A00C90CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D785F49D163B8C4A00C90CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D785F49F163B8C4A00C90CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food Searcher/Food Searcher-Prefix.pch";
+				INFOPLIST_FILE = "Food Searcher/Food Searcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D785F4A0163B8C4A00C90CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food Searcher/Food Searcher-Prefix.pch";
+				INFOPLIST_FILE = "Food Searcher/Food Searcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D785F47A163B8C4A00C90CB4 /* Build configuration list for PBXProject "Food Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D785F49C163B8C4A00C90CB4 /* Debug */,
+				D785F49D163B8C4A00C90CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D785F49E163B8C4A00C90CB4 /* Build configuration list for PBXNativeTarget "Food Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D785F49F163B8C4A00C90CB4 /* Debug */,
+				D785F4A0163B8C4A00C90CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D785F477163B8C4A00C90CB4 /* Project object */;
+}
